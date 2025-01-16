@@ -14,6 +14,7 @@ class LibroController extends Controller
     /**
      * Display a listing of the resource.
      */
+    
     public function index(Request $request): View
     {
         $libros = Libro::paginate();
